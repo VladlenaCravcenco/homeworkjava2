@@ -1,0 +1,18 @@
+package com.company;
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        float radius;
+
+        System.out.print("Enter radius of a circle: ");
+        radius = input.nextFloat();
+
+        System.out.printf("diameter is %f%n", (radius * 2));
+        System.out.printf("circumference is %f%n", (radius * Math.PI * 2));
+        System.out.printf("area is %f%n", ( Math.PI*Math.pow(radius, 2)));
+
+    }
+}
