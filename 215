@@ -1,0 +1,23 @@
+package com.company;
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        int number1;
+        int number2;
+
+        System.out.print("Enter first integer: ");
+        number1 = input.nextInt();
+
+        System.out.print("Enter second integer: ");
+        number2 = input.nextInt();
+
+        System.out.printf("Addition is %d%n", ( number1 + number2));
+        System.out.printf("Subtraction is %d%n", ( number1 - number2));
+        System.out.printf("Division is %d%n", ( number1 / number2));
+        System.out.printf("Multiplication is %d%n", ( number1 * number2));
+
+    }
+}
