@@ -19,5 +19,5 @@ public class Main {
         System.out.printf("Division is %d%n", ( number1 / number2));
         System.out.printf("Multiplication is %d%n", ( number1 * number2));
 
-    }
+    } 
 }
