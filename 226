@@ -20,7 +20,7 @@ public class Main {
             System.out.printf("%d is a multiple %n", (number1 % number2));
         else
             System.out.printf("%d not multiple",(number1 % number2));
-
+ 
 
     }
 }
