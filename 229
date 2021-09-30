@@ -20,5 +20,5 @@ public class Main {
         System.out.printf("The character %c has the value %d%n", '/', ((int) '/'));
         System.out.printf("The character %c has the value %d%n", ' ', ((int) ' '));
 
-    }
+    } 
 }
