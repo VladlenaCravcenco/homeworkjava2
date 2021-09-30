@@ -7,7 +7,7 @@ public class Main {
 
         int num;
 
-        System.out.println("number"+"\t"+"square"+"\t"+"cube");
+        System.out.println("number\t"+"square\t"+"cube");
 
         num = 0;
         System.out.printf("\t%d\t\t%d \t %d\n", (num), (num * num), (num * num * num));
