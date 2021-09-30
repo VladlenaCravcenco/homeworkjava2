@@ -35,4 +35,4 @@ public class Main {
         if (number3 < number1 & number3 < number2)
             System.out.printf("%d is less", number3);
     }
-}
+} 
