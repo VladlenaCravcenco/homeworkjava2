@@ -1,0 +1,37 @@
+package com.company;
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        int number1;
+        int number2;
+        int number3;
+
+        System.out.print("Enter first integer: ");
+        number1 = input.nextInt();
+
+        System.out.print("Enter second integer: ");
+        number2 = input.nextInt();
+
+        System.out.print("Enter second integer: ");
+        number3 = input.nextInt();
+
+        if (number1 % 2 == 0)
+            System.out.printf("%d is odd %n", number1);
+        else
+            System.out.printf("%d is even %n", number1);
+
+        if (number2 % 2 == 0)
+            System.out.printf("%d is odd %n", number2);
+        else
+            System.out.printf("%d is even %n", number2);
+
+        if (number3 % 2 == 0)
+            System.out.printf("%d is odd %n", number3);
+        else
+            System.out.printf("%d is even %n", number3);
+
+    }
+}
