@@ -30,7 +30,7 @@ public class Main {
         num = 6;
         System.out.printf("\t%d\t\t%d \t %d\n", (num), (num * num), (num * num * num));
 
-        num = 7;
+        num = 7; 
         System.out.printf("\t%d\t\t%d \t %d\n", (num), (num * num), (num * num * num));
 
         num = 8;
